@@ -5,7 +5,7 @@
  * main - program prints the alphabet in lowercase,
  * and then in uppercase, followed by a new line.
  *
- * Return: 0;
+ * Return: Always 0;
  */
 int main(void)
 {
