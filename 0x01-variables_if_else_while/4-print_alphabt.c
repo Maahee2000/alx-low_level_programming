@@ -5,7 +5,7 @@
  * main - print the alphabet in lower case
  * follwed by new line, except q and e.
  *
- * Return Always 0 (Success)
+ * Return: Always (Success/correct)
  */
 int main(void)
 {
