@@ -5,8 +5,7 @@
  * main - program that prints the alphabet in lowercase,
  * followed by a new line
  *
- * return: Always 0.
- */
+ * Return: Always (Success/correct)                                                                 */
 int main(void)
 {
 	char ch;
