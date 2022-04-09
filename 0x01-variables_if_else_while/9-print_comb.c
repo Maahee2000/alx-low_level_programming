@@ -2,8 +2,8 @@
 #include<stdlib.h>
 
 /**
- * main - to print all possible combination of number,
- * each nuber end withcomma and space.
+ * main - print all possible combination of single number,
+ * each number end with comma and space.
  *
  * Return:(Always 0.)
  */
