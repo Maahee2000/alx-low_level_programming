@@ -9,22 +9,30 @@
  */
 int main(void)
 {
-	int i, j;
+	int c;
+	int d = 0;
 
-	for (i = 48; i < 57; i++)
+	while (d < 10)
 	{
-		if (j > i)
+		c = 0;
+		while (c < 10)
 		{
-			putchar(i);
-			putchar(j);
-			if (i != 56 || j != 57)
+			if (d != c && d <c)
 			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
+				putchar('0' + d);
+				putchar('0' + ) ;
 
+				if (c + d != 17)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			c++;
+		}
+		d++;
+	}
 	putchar('\n');
 	return (0);
 }
+
