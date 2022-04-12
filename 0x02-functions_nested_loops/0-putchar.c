@@ -1,4 +1,4 @@
-#include"minh"
+#include"main.h"
 
 /**
  * main program that print _putchar
