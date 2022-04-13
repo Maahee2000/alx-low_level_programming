@@ -4,7 +4,7 @@
  * _isalpha - this function chech
  * for alphabetic character.
  *
- * c: character
+ * @c: character
  *
  * Return: 1 if c is lower case.
  */
