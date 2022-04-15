@@ -1,11 +1,11 @@
 #include"main.h"
+
 /**
  * print_diagonal - This function draws a diagonal line
- * @size: thise is the size of the squre
+ * @size: this is the size of the squre
  *
  * Return: (void)
  */
-
 void print_diagonal(int size)
 {
 	int i, j;
