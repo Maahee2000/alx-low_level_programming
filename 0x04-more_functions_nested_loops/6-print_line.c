@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 
 /**
  * print_line - This function draws a straight line
