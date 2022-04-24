@@ -2,31 +2,29 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @str: the string to change the first letter of a word in uppercase
- * Return: capitalizes letters
+ * @s: input string
+ * Return: string with capitalized words
+ *
+ *
  */
-char *cap_string(char *)
+char *cap_string(char *s)
 {
-	int i;
-	int j;
-	char c[] = {44, 59, 46, 33, 63, 34, 40, 41, 123, 125, 32, 10, 9};
+	char *ptr = s;
 
-	while (str[i] != '\0')
+	int foundDelimit = 1;
+
+	while (*s)
 	{
-			if (i == 0 && str[i] >= 97 && str[i] <= 122)
-			{
-				str[i] = str[i] - 32;
-			}
-			j = 0;
-			while (c[j] != '\0')
-			{
-				if (c[j] == str[i] && (str[i + 1] >= 97 && str[i + 1] <= 122))
-				{
-					str[i + 1] = str[i + 1] - 32;
-				}
-				j++;
-			}
-			i++;
+		if (isDelimiter(*s))
+			foundDelimit = 1;
+		else if (isLower(*s) && foundDelimit)
+		{
+			*s -= 32;
+		foundDelimit = 0;
+		}
+		else
+			foundDelimit = 0;
+		s++;
 	}
-	return (str);
+	return (ptr);
 }
