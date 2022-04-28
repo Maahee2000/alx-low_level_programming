@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * factorial - finds factorial
