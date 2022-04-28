@@ -2,7 +2,7 @@
 
 /**
  * is_prime_number - check if n is a prime number
- * @rep: int
+ * @resp: int
  * @n: int
  * Return: 0 or 1
  */
