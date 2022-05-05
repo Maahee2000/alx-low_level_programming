@@ -4,7 +4,7 @@
 /**
  * main - adds positive numbers
  * @argc: int
- * @argv: list
+ * @argc: int
  * Return: 0
  */
 int main(int argc, char const *argv[])
@@ -13,12 +13,12 @@ int main(int argc, char const *argv[])
 
 	while (--argc)
 	{
-	if (isInteger(argv[argc]))
-	{
-		printf("Error\n");
-		return (1);
-	}
-	sum += atoi(argv[argc]);
+		if (isInteger(argv[argc]))
+		{
+			printf("Error\n");
+			return (1);
+		}
+		sum += atoi(argv[argc]);
 	}
 	printf("%i\n", sum);
 	return (0);
