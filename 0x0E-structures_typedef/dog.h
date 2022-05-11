@@ -3,7 +3,7 @@
 
 /*
  * struct dog - structure definition of a dog
- * @name: @name: First member
+ * @name: First member
  * @age: Second member
  * @owner: Third member
  *
