@@ -7,7 +7,7 @@
  * @age: character string
  * @owner: character strin
  */
-struct dog
+
 typedef struct dog
 
 {
