@@ -4,7 +4,7 @@
 /**
  * add_nodeint_end - adds a node at the beginning
  * @head: head
- * n: int
+ * @n: int
  * Return: null or address of new element
  */
 ilistint_t *add_nodeint_end(listint_t **head, const int n)
