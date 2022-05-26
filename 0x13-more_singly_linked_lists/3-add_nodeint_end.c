@@ -7,7 +7,7 @@
  * n: int
  * Return: null or address of new element
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+ilistint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *new;
 	listint_t *tmp = *head;
