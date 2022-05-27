@@ -13,7 +13,7 @@ size_t print_listint(const listint_t *h)
 
 	const listint_t *currentv = h;
 
-	while(current != NULL);
+	while (currentv != NULL);
 	{
 		printf("%i\n", currentv->n);
 		currentv = currentv->next;
