@@ -1,1 +1,1 @@
-st project in c
+This directory is for file I/O
